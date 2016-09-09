@@ -13,5 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\ms">
+      <UniqueIdentifier>{823763b1-8501-4c16-8938-e12279fb1040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ms\md5">
+      <UniqueIdentifier>{36be8dd5-4cb6-41ec-b89c-72b448c74e80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\ms\md5\md5.h">
+      <Filter>头文件\ms\md5</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
